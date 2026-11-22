@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rekk Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --bg:#FAFAF9; --ink:#1A1A1A; --mute:#6B6B68; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161615; --ink:#F2F1EE; --mute:#A3A29E; } }
+  body { background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system, system-ui, sans-serif; margin:0; }
+  main { max-width:680px; margin:0 auto; padding:48px 20px 80px; }
+  h1 { font-weight:200; font-size:34px; margin:0 0 4px; }
+  h2 { font-weight:300; font-size:22px; margin:40px 0 8px; }
+  p, li { margin:8px 0; }
+  .mute { color:var(--mute); }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  td, th { text-align:left; vertical-align:top; padding:8px 12px 8px 0; border-bottom:1px solid var(--mute); }
+</style>
+</head>
+<body>
+<main>
+<h1>Rekk Privacy Policy</h1>
+<p class="mute">Last updated: November 2026</p>
+
+<p>Rekk is an iPhone app for recovery and training. It is free, has no ads, and does not sell your data. This page explains what the app reads, what leaves your phone, who receives it, and how you control it.</p>
+
+<h2>Who we are</h2>
+<p>Rekk is published by Pratyush Mishra. Contact: mishrapratyush96@gmail.com.</p>
+
+<h2>What Rekk reads and where it goes</h2>
+<table>
+<tr><th>Data</th><th>Where it is processed</th></tr>
+<tr><td>Apple Health: heart rate variability, resting heart rate, sleep, blood oxygen, respiratory rate, steps, active energy, VO2 max, wrist temperature and similar</td><td>On your phone only. Rekk never uploads it. Your scores and trends are computed and stored on the device.</td></tr>
+<tr><td>Workout logs: exercise names, sets, reps, weight, dates</td><td>Stored on your phone and backed up to our database (Supabase) when you use the Train tab.</td></tr>
+<tr><td>Garmin data, only if you connect Garmin</td><td>Sent by Garmin to our server (Supabase), stored under your account, and read by the app to compute your scores. See the Garmin section.</td></tr>
+<tr><td>AI Coach messages, only if you turn on the optional AI Coach</td><td>Sent from your phone directly to the AI provider you choose. See the AI Coach section.</td></tr>
+</table>
+
+<h2>Workout data and your account</h2>
+<p>If you have not signed in, your workout logs are linked to an anonymous identifier, not to your name or email. If you sign in with Apple, your workouts are linked to your account so they can be restored on a new device. Apple may share your email address, or its private relay address if you hide your real one. We use it only to identify your account. We never use it for marketing and never share it.</p>
+
+<h2>Garmin</h2>
+<p>Connecting Garmin is optional. When you connect, you sign in on Garmin's own page and choose what Garmin shares. Rekk uses the Garmin Health API, read only. Rekk never writes to your Garmin account.</p>
+<ul>
+<li><strong>What we receive:</strong> daily summaries such as sleep, heart rate variability, resting heart rate, respiration, blood oxygen, steps and stress.</li>
+<li><strong>How we use it:</strong> only to show you your own recovery score, sleep and trends inside Rekk, compared with your own history.</li>
+<li><strong>Where it is stored:</strong> in our database at Supabase, under your account, visible only to you. Garmin access tokens are kept server-side and are never sent to the app.</li>
+<li><strong>What we never do:</strong> sell Garmin data, share it with third parties for their own use, use it for advertising or research, or use it to train, evaluate or improve AI models.</li>
+<li><strong>Disconnect:</strong> in Settings you can disconnect Garmin at any time. This stops new data and deletes your stored Garmin data from our database.</li>
+</ul>
+
+<h2>Optional AI Coach (beta)</h2>
+<p>The AI Coach is off until you set it up. You bring your own AI provider and key. You can pick a hosted provider such as OpenAI, Google, Anthropic or OpenRouter, a model running on your own network, or the on-device Apple model, which sends nothing off your phone.</p>
+<ul>
+<li><strong>Consent:</strong> before your first message, Rekk shows what will be sent and to which provider. You can turn recovery data and training data on or off separately.</li>
+<li><strong>What can be sent:</strong> recent recovery numbers from Apple Health (Body Charge, sleep, overnight heart rate variability, resting heart rate, steps and active energy), 4 weeks of your workouts, plans and recent personal records, and the messages you type.</li>
+<li><strong>Garmin data:</strong> Garmin data is never included in what the AI Coach sends.</li>
+<li><strong>What is never sent:</strong> your name, email, account or device identifiers, raw Apple Health samples, or workout notes.</li>
+<li><strong>Path:</strong> messages go from your phone to the provider you chose. Rekk servers never see them. The provider's own terms and retention apply, and Rekk has no account with these providers on your behalf.</li>
+<li><strong>Your key:</strong> stored only in this device's Keychain. It is not backed up or synced, and is deleted when you disconnect.</li>
+<li><strong>Chat history:</strong> stored only on your phone. You can clear it in the AI Coach settings.</li>
+<li><strong>Withdraw consent:</strong> use "Disconnect and delete key" in the AI Coach settings. Nothing more is sent after that.</li>
+<li>The AI Coach gives fitness suggestions, not medical advice.</li>
+</ul>
+
+<h2>Who else handles data</h2>
+<ul>
+<li><strong>Supabase</strong> hosts our database and sign-in. It stores workout logs and, if you connect Garmin, Garmin summaries. Region: Singapore.</li>
+<li><strong>Apple</strong> provides Sign in with Apple, Apple Health and App Store services.</li>
+<li><strong>Garmin</strong>, if you connect it, under Garmin's own privacy policy.</li>
+<li><strong>The AI provider you choose</strong>, if you use the AI Coach.</li>
+</ul>
+<p>We use no advertising or analytics services, and we do not sell your data.</p>
+
+<h2>Your choices</h2>
+<ul>
+<li><strong>Access and export:</strong> Settings lets you export your workout history as a CSV file. Email us to request a copy of anything else we hold about you.</li>
+<li><strong>Correct:</strong> you can edit or delete any workout in the app. Email us for anything else.</li>
+<li><strong>Delete:</strong> Settings has Delete Account. It removes your workouts, your Garmin connection and data, and your sign-in from our servers.</li>
+<li><strong>Withdraw consent:</strong> disconnect Garmin or the AI Coach in Settings at any time. You can also revoke Apple Health access in the iOS Settings app.</li>
+</ul>
+
+<h2>Retention</h2>
+<p>We keep workout and Garmin data until you delete it, disconnect, or delete your account. On-device data is removed when you delete the app.</p>
+
+<h2>Children</h2>
+<p>Rekk is not directed at children under 13.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we will update the date above and, for material changes, tell you in the app.</p>
+
+<h2>Contact</h2>
+<p>mishrapratyush96@gmail.com</p>
+</main>
+</body>
+</html>
