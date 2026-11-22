@@ -25,7 +25,7 @@ Connecting Garmin is optional. You sign in on Garmin's own page and choose what 
 - Disconnect: you can disconnect Garmin in Settings at any time. This stops new data and deletes your stored Garmin data from our database.
 
 AI Coach (optional beta)
-The AI Coach is off until you set it up. You bring your own AI provider and key. You can choose a hosted provider such as OpenAI, Google, Anthropic or OpenRouter, a model on your own network, or the on-device Apple model, which sends nothing off your phone.
+The AI Coach is off until you set it up. You bring your own AI provider and key. You can choose OpenAI, Anthropic, or the on-device Apple model, which sends nothing off your phone.
 - Consent: before your first message, Rekk shows what will be sent and to which provider. You can turn recovery data and training data on or off separately.
 - What can be sent: recent recovery numbers from Apple Health (Body Charge, sleep, overnight heart rate variability, resting heart rate, steps and active energy), 4 weeks of your workouts, plans and recent personal records, and the messages you type.
 - Garmin data: Garmin data is never included in what the AI Coach sends.
